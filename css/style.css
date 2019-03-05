@@ -2,6 +2,14 @@ html, body, header, #intro {
     height: 100%;
 }
 #intro {
-    background: url("../img/bg-header.jpg");
+    background: url("../img/bg-header.jpg") no-repeat center center fixed;
     background-size: 100% 100%;
+}
+.top-nav-collapse {
+    background: #24355c;
+}
+@media (max-width: 768px) {
+    .navbar:not(.top-nav-collapse) {
+       background: #24355c;
+    }
 }
